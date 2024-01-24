@@ -510,9 +510,9 @@ ul li{
     margin-top: 38px;
 }
 
-.plus:hover {
-    /* display: block;  */
-}
+/* .plus:hover {
+    display: block; 
+} */
 .j {
     width: 20.5%;
     height: 410px;
@@ -2996,7 +2996,7 @@ position: absolute;
     background:#3b5d50;
     color: #3b5d50;
     border-radius: 15%;
-    float:left;
+    /* float:left; */
     text-align: center;
     padding-top: 5px;
     margin-left: 8px;
@@ -3025,7 +3025,7 @@ position: absolute;
     display: inline-block;
     background:#3b5d50;
     margin-left: 30px;
-    float:left;
+    /* float:left; */
     color: #3b5d50;
     border-radius: 15%;
     text-align: center;
@@ -3056,7 +3056,7 @@ position: absolute;
     display: inline-block;
     background:#3b5d50;
     margin-left: 29px;
-    float:left;
+    /* float:left; */
     color: #3b5d50;
     border-radius: 15%;
     text-align: center;
