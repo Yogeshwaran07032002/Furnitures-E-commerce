@@ -2987,20 +2987,27 @@ position: absolute;
     border-style: solid;
     position: relative;
 }
+.locationdiv{
+    width: 30%;
+    height: 70px;
+    border-style: solid;
+    border-color: #24d76c;
+    float: left;
+}
 .locate
 {
-    width: 7%;
+    width: 23%;
     height: 45px;
-    /* border-style: solid; */
-    display: inline-block;
+    border-style: solid;
     background:#3b5d50;
     color: #3b5d50;
     border-radius: 15%;
-    /* float:left; */
+    float:left;
     text-align: center;
+    margin-top: 10px;
     padding-top: 5px;
     margin-left: 8px;
-
+ 
 }
 .locate1{
     color:#fff;
@@ -3008,7 +3015,7 @@ position: absolute;
 }
 .loname
 {
-    width: 20%;
+    width: 60%;
     height: 70px;
     border-style: solid;
     float: left;
@@ -3017,20 +3024,25 @@ position: absolute;
     font-weight: 400;
     color: #6a6a6a;
 }
+.maildiv{
+    width: 35%;
+    height: 70px;
+    border-style: solid;
+    float: left;
+    border-color: #24d76c;
+}
 .mail
-{
-    width: 7%;
+{ width: 19%;
     height: 45px;
-    /* border-style: solid; */
-    display: inline-block;
+    border-style: solid;
     background:#3b5d50;
-    margin-left: 30px;
-    /* float:left; */
     color: #3b5d50;
     border-radius: 15%;
+    float:left;
     text-align: center;
+    margin-top: 10px;
     padding-top: 5px;
-  
+    margin-left: 8px;
 }
 .mail1{
     color:#fff;
@@ -3038,7 +3050,7 @@ position: absolute;
 }
 .mailname
 {
-    width: 23%;
+    width: 63%;
     height: 30px;
     border-style: solid;
     float: left;
@@ -3046,22 +3058,28 @@ position: absolute;
     font-family: inherit,sans-serif;
     font-weight: 400;
     color: #6a6a6a;
+    margin-top: 15px;
 }
-
+.phdiv{
+    width: 35%;
+    height: 70px;
+    border-style: solid;
+    float: left;
+    border-color: #24d76c;
+}
 .tele
 {
-    width: 7%;
+    width: 19%;
     height: 45px;
-    /* border-style: solid; */
-    display: inline-block;
+    border-style: solid;
     background:#3b5d50;
-    margin-left: 29px;
-    /* float:left; */
     color: #3b5d50;
     border-radius: 15%;
+    float:left;
     text-align: center;
+    margin-top: 10px;
     padding-top: 5px;
-  
+    margin-left: 8px;
 }
 .tele1{
     color:#fff;
@@ -3069,7 +3087,7 @@ position: absolute;
 }
 .telename
 {
-    width: 18%;
+    width: 63%;
     height: 30px;
     border-style: solid;
     float: left;
@@ -3077,6 +3095,7 @@ position: absolute;
     font-family: inherit,sans-serif;
     font-weight: 400;
     color: #6a6a6a;
+    margin-top: 15px;
 }
 .subpage
 {
