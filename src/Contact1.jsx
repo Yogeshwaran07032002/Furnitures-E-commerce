@@ -2,9 +2,13 @@ import { NavLink } from "react-router-dom";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
-
+import React, { useState } from 'react';
 function Contact1(){
-  
+  const [firstName, setFirstName] = useState('');
+
+  const handleFirstNameChange = (event) => {
+      setFirstName(event.target.value);
+  };
   
     return(<div>
 
@@ -40,8 +44,27 @@ function Contact1(){
                 <div className="telename">+1 294 3925 3939</div>
                 </div>
                 </div>
+                
+                {/*  addresspage2 */}
+                 
+                <div className='addresspage2'>
+                  <h6>Firstname</h6>
+                   <input
+                   className="firstname"
+                   type="text"
+                   value={firstName}
+                   onChange={handleFirstNameChange}/>
+
+                            <h6>Lastname</h6>
+                          
+                            <input
+                   className="Lastname"
+                   type="text"
+                   value={firstName}
+                   onChange={handleFirstNameChange}/>
+                   </div>
           
-        
+
                    
                 </div>
             </div>
