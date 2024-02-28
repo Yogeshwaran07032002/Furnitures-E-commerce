@@ -1,15 +1,11 @@
-import { NavLink } from "react-router-dom";
-import { FaLocationDot } from "react-icons/fa6";
-import { IoMdMail } from "react-icons/io";
-import { FaPhone } from "react-icons/fa6";
-import React, { useState } from 'react';
-function Contact1(){
-  const [firstName, setFirstName] = useState('');
+// x import { NavLink } from "react-router-dom";
+// import { FaLocationDot } from "react-icons/fa6";
+// import { IoMdMail } from "react-icons/io";
+// import { FaPhone } from "react-icons/fa6";
 
-  const handleFirstNameChange = (event) => {
-      setFirstName(event.target.value);
-  };
-  
+
+function Contact1(){
+
     return(<div>
 
      <div className="pageone2">
@@ -27,47 +23,16 @@ function Contact1(){
             </div>
             </div>
             </div>
-            {/* contact pages */}
-            <div className="newcontact">
-                <div className="newcontact1">
-                <div className='addresspage'>
-                  <div className="locationdiv">
-                <div className='locate'><NavLink><FaLocationDot className='locate1'/></NavLink></div>
-                <div className="loname">43 Raymouth Rd. Baltemoer, London 3910</div>
-                </div>
-                <div className="maildiv">
-                <div className='mail'><NavLink><IoMdMail className='mail1'/></NavLink></div>
-                <div className="mailname">info@yourdomain.com</div>
-                </div>
-                <div className="phdiv">
-                <div className='tele'><NavLink><FaPhone className="tele1"/></NavLink></div>
-                <div className="telename">+1 294 3925 3939</div>
-                </div>
-                </div>
+           
+                               {/* CONTACT PAGES */}
+
+            <div className="cons">
+               <div className="adddiv">
                 
-                {/*  addresspage2 */}
-                 
-                <div className='addresspage2'>
-                  <h6>Firstname</h6>
-                   <input
-                   className="firstname"
-                   type="text"
-                   value={firstName}
-                   onChange={handleFirstNameChange}/>
+               </div>
+              
+              </div>                   
 
-                            <h6>Lastname</h6>
-                          
-                            <input
-                   className="Lastname"
-                   type="text"
-                   value={firstName}
-                   onChange={handleFirstNameChange}/>
-                   </div>
-          
-
-                   
-                </div>
-            </div>
     </div>)
 }
 export default Contact1

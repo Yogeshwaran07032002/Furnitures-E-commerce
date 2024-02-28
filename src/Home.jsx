@@ -1,4 +1,4 @@
-import React from 'react';
+    import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 // import t1 from './images/truck.svg';
 
@@ -8,6 +8,7 @@ import Abouts from "./Abouts";
 import Aboutstwo from "./Aboutstwo";
 import Blogs from "./Blogs"
 import Contact from './Contact';
+import Contact1 from './Contact1';
 function Home(){
     return(<div>
          <div className="pageone">
@@ -92,6 +93,9 @@ function Home(){
         
        {/* section66666666666 */}
        <Contact/>
+       
+       {/* Contact1 */}
+       <Contact1/>
 
 
 
