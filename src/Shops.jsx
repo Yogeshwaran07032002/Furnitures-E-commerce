@@ -1,7 +1,13 @@
+import React, { useEffect, useRef } from 'react';
+
+
 function Shops() {
+
     return (
         <div className="p2">
-            
+                  <div className="shape shape1"></div>
+        <div className="shape shape2"></div>
+        <div className="shape shape3"></div>
             <div className="c">
                 <div className="cr">Crafted with excellent material.</div>
                 <div className="cr1">
@@ -44,4 +50,5 @@ function Shops() {
         </div>
     )
 }
-export default Shops
+
+export default Shops;

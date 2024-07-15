@@ -5,6 +5,8 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { FaPhone } from "react-icons/fa6";
+import Contact2 from "./Contact2";
+import Contact from './Contact';
 function Contact1() {
 
     return (<div>
@@ -40,10 +42,15 @@ function Contact1() {
                     <div className="phonelo">+91 8839937444</div>
                 </div>
 
+                <Contact2/>
+      
+                     
             </div>
-
+            <Contact/>
         </div>
+ 
 
+    
     </div>)
 }
 export default Contact1
