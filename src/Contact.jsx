@@ -59,31 +59,31 @@ function Contact() {
                         <div className='furdot'>Furni.</div>
                         <div className='parah'><h6>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant.</h6></div>
                         <div className='iconsi'>
-                            
+
                             {/* <div className='fb'><NavLink><FaFacebook className='fb1' /></NavLink></div>
                             <div className='twit'><NavLink><FaTwitter className='twit1' /></NavLink></div>
                             <div className='insta'><NavLink><FaInstagramSquare className="insta1" x /></NavLink></div>
                             <div className='indeed'><NavLink><FaLinkedin className='indeed1' /></NavLink></div> */}
                             <div className='fb'>
-  <a href='https://www.facebook.com/yourprofile' target='_blank' rel='noopener noreferrer'>
-    <FaFacebook className='fb1' />
-  </a>
-</div>
-<div className='twit'>
-  <a href='https://www.twitter.com/yourprofile' target='_blank' rel='noopener noreferrer'>
-    <FaTwitter className='twit1' />
-  </a>
-</div>
-<div className='insta'>
-  <a href='https://www.instagram.com/yourprofile' target='_blank' rel='noopener noreferrer'>
-    <FaInstagramSquare className='insta1' />
-  </a>
-</div>
-<div className='indeed'>
-  <a href='https://www.linkedin.com/in/yourprofile' target='_blank' rel='noopener noreferrer'>
-    <FaLinkedin className='indeed1' />
-  </a>
-</div>
+                                <a href='https://www.facebook.com/yourprofile' target='_blank' rel='noopener noreferrer'>
+                                    <FaFacebook className='fb1' />
+                                </a>
+                            </div>
+                            <div className='twit'>
+                                <a href='https://www.twitter.com/yourprofile' target='_blank' rel='noopener noreferrer'>
+                                    <FaTwitter className='twit1' />
+                                </a>
+                            </div>
+                            <div className='insta'>
+                                <a href='https://www.instagram.com/yourprofile' target='_blank' rel='noopener noreferrer'>
+                                    <FaInstagramSquare className='insta1' />
+                                </a>
+                            </div>
+                            <div className='indeed'>
+                                <a href='https://www.linkedin.com/in/yourprofile' target='_blank' rel='noopener noreferrer'>
+                                    <FaLinkedin className='indeed1' />
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className='htags'>
