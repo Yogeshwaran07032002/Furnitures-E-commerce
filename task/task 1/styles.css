@@ -1,0 +1,259 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container
+{
+    width: 60%;
+    height: 600px;
+    justify-content: center;
+    background-color:whitesmoke;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+}
+h3{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 40px;
+}
+h4{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 23px;
+    margin-right: 40px;
+    color: rgb(145, 145, 145);
+}
+.divone{
+    width: 90%;
+    height: 120px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    position: absolute;
+    background-color: #ffff;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+}
+.imgone{
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 14%;
+    background-position: center;
+    border-radius: 60px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-size: 100px;
+    position: absolute;
+    float: left;
+}
+.nameone 
+{
+    width:55%;
+    height: 97px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+.name1{
+    width: 20%;
+    height: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.name2{
+    width: 70%;
+    height: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    line-height: -10px;
+    margin-top: 20px;
+  word-spacing: 10px;
+}
+.amt{
+    width: 20%;
+    height: 90px;
+    float: right;
+    margin-top: 22px;
+}
+.doller1{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(40, 230, 27);
+    font-size: 25px;
+}
+.doller2{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   margin-top:13px;
+    font-size: 25px;
+}
+
+/* image2 */
+.divtwo{
+    width: 90%;
+    height: 120px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    background-color: #ffff;
+    border-radius: 20px;
+    position:relative;
+    float: left;
+}
+.imgtwo{
+    background-image: url(images/im2.png);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 14%;
+    background-position: center;
+    border-radius: 60px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-size: 85px;
+    position: absolute;
+    float: left;
+}
+.nametwo
+{
+    width:55%;
+    height: 97px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+.name11{
+    width: 20%;
+    height: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.name22{
+    width: 70%;
+    height: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    line-height: -10px;
+    margin-top: 20px;
+  word-spacing: 10px;
+}
+.amt1{
+    width: 20%;
+    height: 90px;
+    float: right;
+    margin-top: 22px;
+}
+.doller11{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 27, 27);
+    font-size: 25px;
+}
+.doller22{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   margin-top:13px;
+    font-size: 25px;
+}
+/* image3 */
+.divthree{
+    width: 90%;
+    height: 120px;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    background-color: #ffff;
+    border-radius: 20px;
+    position:relative;
+    float: left;
+}
+.imgthree{
+    background-image: url(images/im3.png);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 14%;
+    background-position: center;
+    border-radius: 60px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background-size: 150px;
+    position: absolute;
+    float: left;
+}
+.namethree
+{
+    width:55%;
+    height: 97px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 22px;
+}
+.name111{
+    width: 20%;
+    height: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.name222{
+    width: 70%;
+    height: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    line-height: -10px;
+    margin-top: 20px;
+  word-spacing: 10px;
+}
+.amt11{
+    width: 20%;
+    height: 90px;
+    float: right;
+    margin-top: 22px;
+}
+.doller111{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(40, 230, 27);
+    font-size: 25px;
+}
+.doller222{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   margin-top:13px;
+    font-size: 25px;
+}

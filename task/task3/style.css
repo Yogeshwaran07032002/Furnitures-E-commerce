@@ -1,0 +1,61 @@
+
+body {
+    font-family:Poppins sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fdfcfc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #322f2f;
+}
+
+
+.coursetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.coursetable th{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+tr{
+    text-align: center;
+}
+th {
+    background-color: #d7d5d5;
+
+}
+
+.coursetable td img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
